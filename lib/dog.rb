@@ -1,18 +1,20 @@
 class Dog
-  def name = (dogs_name)
-    @name = dogs_name 
+
+  def name=(name)
+    @name = name
   end
 
-def name 
-  @name 
+  def name
+    @name
+  end
+
+  def breed=(breed)
+    @breed = breed
+  end
+
+  def breed
+    @breed
+  end
+
+
 end
-end
-
-fido = Dog.new
-fido.name ("Fido")
-
-puts fido.name 
-
-snoopy = Dog.new
-snoopy.name("Snoopy")
-puts snoopy.name 
