@@ -12,4 +12,4 @@ fido = Dog.new("Fido")
 fido.name
 
 snoopy= Dog.new("Snoopy")
-snoopy.name 
+snoopy.name
