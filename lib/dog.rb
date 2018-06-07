@@ -6,8 +6,14 @@ class Dog
 def name
   @name
 end
-end
 
+def name = (new_name)
+  @name = new_name
+end
+end
 
 fido = Dog.new("Fido")
 fido.name
+
+snoopy= Dog.new("Snoopy")
+snoopy.name 
